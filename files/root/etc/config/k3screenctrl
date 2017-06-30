@@ -2,5 +2,5 @@
 config general
 	option screen_time '10'
 	option refresh_time '2'
-	option pawd_hide '0'
-	option disp_cputemp '0'
+	option psk_hide '0'
+	option cputemp '0'
