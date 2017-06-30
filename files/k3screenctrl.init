@@ -9,7 +9,6 @@ TEMP_DIR=/tmp/k3screenctrl
 start() {
     mkdir -p $TEMP_DIR
     mkdir -p $TEMP_DIR/device_speed
-    mkdir -p $TEMP_DIR/device_icon
     [ -z "$(iptables --list | grep K3_SEREEN_U)" ] && iptables -N K3_SEREEN_U
     [ -z "$(iptables --list | grep K3_SEREEN_D)" ] && iptables -N K3_SEREEN_D
     $SCRIPTS_BASE"device_custom.sh"
