@@ -28,14 +28,35 @@ msgstr "屏幕刷新间隔"
 msgid "Hide Wireless password"
 msgstr "隐藏无线密码"
 
-msgid "The fourth page of the wireless password."
-msgstr "第四页的无线密码"
-
 msgid "Display CPU temperature"
 msgstr "显示 CPU 温度"
 
 msgid "The first page shows the CPU temperature."
 msgstr "第一页显示 CPU 温度"
+
+msgid "Test"
+msgstr "测试"
+
+msgid "Print info"
+msgstr "输出信息"
+
+msgid "Execute k3screenctrl -t and return the result"
+msgstr "执行 k3screenctrl -t 并返回结果"
+
+msgid "Output results"
+msgstr "输出结果"
+
+msgid "Device customization"
+msgstr "设备自定义"
+
+msgid "Customize the fifth page of device information"
+msgstr "自定义第五页设备信息"
+
+msgid "Device"
+msgstr "设备"
+
+msgid "Icon"
+msgstr "图标"
 
 msgid "2 s"
 msgstr "2 秒"
@@ -66,3 +87,72 @@ msgstr "30 分"
 
 msgid "60 m"
 msgid "60 分"
+
+msgid "Auto"
+msgstr "自动"
+
+msgid "OnePlus"
+msgstr "一加"
+
+msgid "Asus"
+msgstr "华硕"
+
+msgid "Coolpad"
+msgstr "酷派"
+
+msgid "Dell"
+msgstr "戴尔"
+
+msgid "Haier"
+msgstr "海尔"
+
+msgid "Hasee"
+msgstr "神舟"
+
+msgid "Honor"
+msgid "荣耀"
+
+msgid "HP"
+msgstr "惠普"
+
+msgid "Huawei"
+msgstr "华为"
+
+msgid "Apple"
+msgstr "苹果"
+
+msgid "Lenovo"
+msgid "联想"
+
+msgid "LeEco"
+msgstr "乐视"
+
+msgid "Meitu"
+msgstr "美图"
+
+msgid "Meizu"
+msgstr "魅族"
+
+msgid "Phicomm"
+msgstr "斐讯"
+
+msgid "Samsung"
+msgstr "三星"
+
+msgid "Smartisan"
+msgstr "锤子"
+
+msgid "Sony"
+msgstr "索尼"
+
+msgid "TongfangPC"
+msgstr "清华同方"
+
+msgid "Microsoft"
+msgstr "微软"
+
+msgid "XiaoMi"
+msgstr "小米"
+
+msgid "ZTE"
+msgstr "中兴"
