@@ -90,6 +90,7 @@ if nixio.fs.access("/tmp/k3screenctrl/test") then
 	s.anonymous = true
 	o = s:option(TextValue,"test_output_results")
 	o.readonly = true
+	o.rows = 30
 	o.cfgvalue = function()
 		return luci.sys.exec("cat /tmp/k3screenctrl/test && rm -f /tmp/k3screenctrl/test")
 	end
