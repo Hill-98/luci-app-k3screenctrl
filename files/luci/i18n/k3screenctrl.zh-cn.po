@@ -10,9 +10,6 @@ msgstr "自定义你的设备屏幕"
 msgid "General Setting"
 msgstr "基本设置"
 
-msgid "If it does not take effect immediately, please reboot the system."
-msgstr "如果没有立即生效，请重启系统。"
-
 msgid "Screen time :"
 msgstr "亮屏时间："
 
@@ -22,8 +19,8 @@ msgstr "这段时间没有操作，屏幕将关闭。"
 msgid "Refresh interval :"
 msgstr "刷新间隔："
 
-msgid "Screen refresh interval."
-msgstr "屏幕刷新间隔"
+msgid "Screen data refresh interval."
+msgstr "屏幕数据刷新间隔"
 
 msgid "Hide Wireless password"
 msgstr "隐藏无线密码"

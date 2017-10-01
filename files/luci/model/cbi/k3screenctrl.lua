@@ -4,7 +4,7 @@ local m, s ,o
 
 m = Map("k3screenctrl", translate("Screen"), translate("Customize your device screen"))
 
-s = m:section(TypedSection, "general", translate("General Setting") ,translate("If it does not take effect immediately, please reboot the system."))
+s = m:section(TypedSection, "general", translate("General Setting") )
 s.anonymous = true
 
 o = s:option(ListValue, "screen_time", translate("Screen time :"), translate("This time no action, the screen will close."))
@@ -19,7 +19,7 @@ o:value("3600",translate("60 m"))
 o.default = 10
 o.rmempty = false
 
-o = s:option(ListValue, "refresh_time", translate("Refresh interval :"), translate("Screen refresh interval."))
+o = s:option(ListValue, "refresh_time", translate("Refresh interval :"), translate("Screen data refresh interval."))
 o:value("2",translate("2 s"))
 o:value("5",translate("5 s"))
 o:value("10",translate("10 s"))
