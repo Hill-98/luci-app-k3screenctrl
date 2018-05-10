@@ -1,4 +1,4 @@
--- Copyright (C) 2017 XiaoShan https://www.mivm.cn
+-- Copyright (C) 2018 XiaoShan mivm.cn
 
 module("luci.controller.k3screenctrl", package.seeall)
 
