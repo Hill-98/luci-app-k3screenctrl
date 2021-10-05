@@ -3,7 +3,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-k3screenctrl
-PKG_VERSION:=1.1.0
+PKG_VERSION:=1.1.1
 PKG_RELEASE:=1
 
 PKG_LICENSE:=GPLv3
@@ -25,7 +25,7 @@ define Package/$(PKG_NAME)
 	CATEGORY:=LuCI
 	SUBMENU:=3. Applications
 	TITLE:=LuCI Support for k3screenctrl
-	DEPENDS:=@PACKAGE_phicommk3-screenctrl +phicommk3-screenctrl
+	DEPENDS:=+k3screenctrl
 endef
 
 define Package/$(PKG_NAME)/description
